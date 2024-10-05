@@ -1,1 +1,1 @@
-# smart-stickies-workflow
+# smart-stickies-ai-workflow
