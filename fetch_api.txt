@@ -1,0 +1,17 @@
+APIs 
+**
+Based on your request, I have fetched the APIs for the UI elements 'button' and 'slider'. Here are the relevant APIs:
+
+- Button API:
+  - Endpoint: /api/ui/button/create
+  - Method: POST
+  - Payload: {'label': 'Submit', 'color': 'blue', 'size': 'medium', 'onClick': 'submitForm()'}
+  - Response: {'status': 'success', 'buttonId': 'btn-12345', 'message': 'Button created successfully'}
+
+- Slider API:
+  - Endpoint: /api/ui/slider/create
+  - Method: POST
+  - Payload: {'min': 0, 'max': 100, 'step': 5, 'initialValue': 50, 'label': 'Volume'}
+  - Response: {'status': 'success', 'sliderId': 'slider-67890', 'message': 'Slider created successfully'}
+
+**

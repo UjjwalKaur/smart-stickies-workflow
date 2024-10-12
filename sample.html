@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button and Slider UI Elements</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 400px;
+            margin: 40px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .button {
+            margin-bottom: 20px;
+        }
+        .slider-container {
+            margin-bottom: 40px;
+        }
+        .slider-label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="button" id="submit-button" onclick="submitForm()">Submit</button>
+        <button class="button" id="cancel-button" onclick="cancelForm()">Cancel</button>
+        <div class="slider-container">
+            <label class="slider-label" for="volume-slider">Volume</label>
+            <input type="range" id="volume-slider" min="0" max="100" step="5" value="50">
+        </div>
+    </div>
+
+    <script>
+        function submitForm() {
+            alert("Form submitted!");
+        }
+        function cancelForm() {
+            alert("Form cancelled!");
+        }
+    </script>
+</body>
+</html>

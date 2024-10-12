@@ -1,0 +1,97 @@
+{
+    "button": {
+      "endpoint": "/api/ui/button/create",
+      "method": "POST",
+      "payload": {
+        "label": "Submit",
+        "color": "blue",
+        "size": "medium",
+        "onClick": "submitForm()"
+      },
+      "response": {
+        "status": "success",
+        "buttonId": "btn-12345",
+        "message": "Button created successfully"
+      }
+    },
+    "input": {
+      "endpoint": "/api/ui/input/create",
+      "method": "POST",
+      "payload": {
+        "type": "text",
+        "placeholder": "Enter your name",
+        "name": "username",
+        "maxLength": 50
+      },
+      "response": {
+        "status": "success",
+        "inputId": "input-67890",
+        "message": "Input field created successfully"
+      }
+    },
+    "dropdown": {
+      "endpoint": "/api/ui/dropdown/create",
+      "method": "POST",
+      "payload": {
+        "name": "country",
+        "options": [
+          {"label": "USA", "value": "us"},
+          {"label": "Canada", "value": "ca"},
+          {"label": "Mexico", "value": "mx"}
+        ]
+      },
+      "response": {
+        "status": "success",
+        "dropdownId": "dropdown-23456",
+        "message": "Dropdown created successfully"
+      }
+    },
+    "checkbox": {
+      "endpoint": "/api/ui/checkbox/create",
+      "method": "POST",
+      "payload": {
+        "label": "I agree to the terms and conditions",
+        "name": "terms",
+        "checked": false
+      },
+      "response": {
+        "status": "success",
+        "checkboxId": "checkbox-78901",
+        "message": "Checkbox created successfully"
+      }
+    },
+    "modal": {
+      "endpoint": "/api/ui/modal/create",
+      "method": "POST",
+      "payload": {
+        "title": "Welcome!",
+        "content": "This is a welcome message.",
+        "buttons": [
+          {"label": "OK", "action": "closeModal()"},
+          {"label": "Cancel", "action": "cancelAction()"}
+        ]
+      },
+      "response": {
+        "status": "success",
+        "modalId": "modal-12345",
+        "message": "Modal created successfully"
+      }
+    },
+    "slider": {
+      "endpoint": "/api/ui/slider/create",
+      "method": "POST",
+      "payload": {
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "initialValue": 50,
+        "label": "Volume"
+      },
+      "response": {
+        "status": "success",
+        "sliderId": "slider-67890",
+        "message": "Slider created successfully"
+      }
+    }
+  }
+  
