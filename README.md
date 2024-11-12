@@ -9,12 +9,18 @@ The application allows users to input specific UI requirements through a web for
 The repository consists of the following key files and directories:
 
 ```app.py```: The main Flask application file that handles routing and integrates with the AI model.
-api_database.json: A JSON file containing a database of APIs used for UI element generation.
-customer_preferences.json: A JSON file storing customer-specific preferences to tailor the UI generation process.
-templates/: Directory containing HTML templates for rendering web pages.
-static/: Directory for static files such as CSS stylesheets.
-requirements.txt: A file listing the Python dependencies required to run the application.
-Setup Instructions
+
+```api_database.json```: A JSON file containing a database of APIs used for UI element generation.
+
+```customer_preferences.json```: A JSON file storing customer-specific preferences to tailor the UI generation process.
+
+```templates/```: Directory containing HTML templates for rendering web pages.
+
+```static/```: Directory for static files such as CSS stylesheets.
+
+```requirements.txt```: A file listing the Python dependencies required to run the application.
+
+## Setup Instructions
 To set up and run the Smart Stickies Workflow application locally, follow these steps:
 
 Clone the Repository:
