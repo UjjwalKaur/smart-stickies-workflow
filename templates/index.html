@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Stickies</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <form method="post" action="/">
+                <label for="user">Customer Name</label>
+                <input type="text" id="user" name="user" required>
+                
+                <label for="instructions">User Prompt</label>
+                <textarea id="instructions" name="instructions" rows="4" required></textarea>
+                
+                <button type="submit" class="submit-btn">Generate Website</button>
+            </form>
+        </div>
+
+        <div class="phone-emulator">
+            <div class="phone-screen">
+                {% if generated_html %}
+                    {{ generated_html|safe }}
+                {% else %}
+                    <!-- Placeholder content in the phone emulator for styling -->
+                    <h2>Your custom website will appear here...</h2>
+                    <div class="space"></div>
+                    <!--<button class="know-more-btn">Know more</button>
+                    <div class="space"></div>
+                    <button class="submit-btn">Submit</button>-->
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

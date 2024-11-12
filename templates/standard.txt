@@ -1,0 +1,16 @@
+<style>
+    /* Accomodate style elements accordingly in customer_preferences */
+</style>
+    
+<div id = "dynamic-content">
+    <div id = "gen-element">
+        <!--Add 1st element here-->
+    </div>
+    <div id = "gen-element">
+        <!--Add second element here-->
+    </div>
+    <div id = "gen-element">
+        <!--Add third element here, if required-->
+    </div>
+    <!--If required, add more divs to accomodate more elements-->
+</div>

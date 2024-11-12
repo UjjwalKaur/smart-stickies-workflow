@@ -1,0 +1,82 @@
+[
+    {
+        "customer_name": "Jane Doe",
+        "primary_color_name": "orange",
+        "primary_color_code": "ff8d33",
+        "secondary_color_name": "light blue",
+        "secondary_color_code": "33b2ff",
+        "font_type": "Courier New (monospace)"
+    },
+    {
+        "customer_name": "Coca Cola",
+        "primary_color_name": "red",
+        "primary_color_code": "a01505",
+        "secondary_color_name": "black",
+        "secondary_color_code": "#000000",
+        "font_type": "Verdana (sans-serif)"
+    },
+    {
+        "customer_name": "Pepsi",
+        "primary_color_name": "blue",
+        "primary_color_code": "0056a6",
+        "secondary_color_name": "red",
+        "secondary_color_code": "e32934",
+        "font_type": "Helvetica (sans-serif)"
+    },
+    {
+        "customer_name": "Nike",
+        "primary_color_name": "black",
+        "primary_color_code": "000000",
+        "secondary_color_name": "white",
+        "secondary_color_code": "ffffff",
+        "font_type": "Arial (sans-serif)"
+    },
+    {
+        "customer_name": "Starbucks",
+        "primary_color_name": "green",
+        "primary_color_code": "00704a",
+        "secondary_color_name": "white",
+        "secondary_color_code": "ffffff",
+        "font_type": "Times New Roman (serif)"
+    },
+    {
+        "customer_name": "McDonald's",
+        "primary_color_name": "yellow",
+        "primary_color_code": "ffc300",
+        "secondary_color_name": "red",
+        "secondary_color_code": "da291c",
+        "font_type": "Arial (sans-serif)"
+    },
+    {
+        "customer_name": "Amazon",
+        "primary_color_name": "orange",
+        "primary_color_code": "ff9900",
+        "secondary_color_name": "black",
+        "secondary_color_code": "000000",
+        "font_type": "Verdana (sans-serif)"
+    },
+    {
+        "customer_name": "Apple",
+        "primary_color_name": "space gray",
+        "primary_color_code": "1d1d1f",
+        "secondary_color_name": "white",
+        "secondary_color_code": "ffffff",
+        "font_type": "San Francisco (sans-serif)"
+    },
+    {
+        "customer_name": "Google",
+        "primary_color_name": "blue",
+        "primary_color_code": "4285f4",
+        "secondary_color_name": "green",
+        "secondary_color_code": "34a853",
+        "font_type": "Roboto (sans-serif)"
+    },
+    {
+        "customer_name": "Microsoft",
+        "primary_color_name": "blue",
+        "primary_color_code": "0078d7",
+        "secondary_color_name": "green",
+        "secondary_color_code": "7fba00",
+        "font_type": "Segoe UI (sans-serif)"
+    }
+]
