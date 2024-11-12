@@ -38,11 +38,12 @@ cd smart-stickies-workflow
 Create and Activate a Virtual Environment:
 
 ```bash
-Copy code
 python3 -m venv venv
 source venv/bin/activate  # For Windows: venv\Scripts\activate
-Install Dependencies:
 ```
+
+Install Dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
